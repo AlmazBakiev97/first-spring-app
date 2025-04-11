@@ -1,0 +1,17 @@
+[33mcommit 5057446da2b69715866e95e1445ea45484062dd8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Almaz Bakiev <almazbakiev97@mail.ru>
+Date:   Thu Apr 10 14:16:43 2025 +0300
+
+    Dependecy injection
+
+[33mcommit 1516b4f99be9a4f48af8799792d5ae62332fc730[m
+Author: Almaz Bakiev <almazbakiev97@mail.ru>
+Date:   Thu Apr 10 14:02:55 2025 +0300
+
+    Update app
+
+[33mcommit 06d4f1da43a137c3fa8289ffaae2b06ff2400929[m
+Author: Almaz Bakiev <almazbakiev97@mail.ru>
+Date:   Thu Apr 10 13:37:26 2025 +0300
+
+    Initial commit
