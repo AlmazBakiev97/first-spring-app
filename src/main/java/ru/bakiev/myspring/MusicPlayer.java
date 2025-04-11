@@ -7,6 +7,7 @@ public class MusicPlayer {
     private List<Music> musicList = new ArrayList<>();
     private String name;
     private int volume;
+    private static int count;
 
     public MusicPlayer() {
     }
@@ -40,6 +41,14 @@ public class MusicPlayer {
         for (Music m : musicList) {
             System.out.println(m.getSong());
         }
-        
+    }
+
+    public void init() {
+        System.out.println("init " + count);
+        count++;
+    }
+
+    public void destroy() {
+        System.out.println("destroy");
     }
 }

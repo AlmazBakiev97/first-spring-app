@@ -10,7 +10,8 @@
     <context:property-placeholder location="classpath:musicPlayer.properties"/>
 
     <bean id="classicalMusicBean"
-          class="ru.bakiev.myspring.ClassicalMusic">
+          class="ru.bakiev.myspring.ClassicalMusic"
+          factory-method="getClassicalMusic">
     </bean>
 
     <bean id="rockMusicBean"
@@ -22,7 +23,11 @@
     </bean>
 
     <bean id="musicPlayer"
-          class="ru.bakiev.myspring.MusicPlayer">
+          class="ru.bakiev.myspring.MusicPlayer"
+          scope="prototype"
+          init-method="init"
+          destroy-method="destroy">
+
         <property name="musicList">
             <list>
                 <ref bean="classicalMusicBean"/>
